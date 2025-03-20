@@ -26,7 +26,7 @@ const Navbar = () => {
           className="cursor-pointer"
         />
         <ul className="hidden md:flex gap-7 text-white">
-          <a href="#Header" v className="cursor-pointer hover:text-gray-400">
+          <a href="#Home" v className="cursor-pointer hover:text-gray-400">
             Home
           </a>
           <a href="#About" v className="cursor-pointer hover:text-gray-400">
@@ -42,7 +42,7 @@ const Navbar = () => {
             Testimonials
           </a>
         </ul>
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
+        <button className="hidden md:block bg-white px-8 py-2 rounded-full cursor-pointer">
           Sign Up
         </button>
         <img

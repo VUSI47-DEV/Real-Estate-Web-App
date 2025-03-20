@@ -4,3 +4,6 @@
 *{
     font-family: Outfit;
 }
+body{
+    scroll-behavior: smooth;
+}
