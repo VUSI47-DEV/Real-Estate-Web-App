@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <mption.div
+    <motion.div
     initial= {{opacity:0, x:-200}}
     transition={{duration:1}}
     whileInView={{opacity:1, x:0}}
@@ -94,7 +94,7 @@ const Contact = () => {
           {result ? result : "Send Message"}
         </button>
       </form>
-    </mption.div>
+    </motion.div>
   );
 };
 
